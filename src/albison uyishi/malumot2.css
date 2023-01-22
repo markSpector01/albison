@@ -1,0 +1,26 @@
+.kopy2{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rasm2{
+    width: 48%;
+}
+.tex2{
+    width: 48%;
+}
+.tex2 h1{
+    color: rgb(24, 33, 109);
+    font-size: 56px;
+    line-height: 65px;
+    margin-bottom: 15px;
+}
+.tex2 p{
+    color: rgb(42, 53, 149);
+    font-size: 20px;
+    font-weight: 100;
+    width: 85%;
+}

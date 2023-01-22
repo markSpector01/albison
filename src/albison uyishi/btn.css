@@ -1,0 +1,47 @@
+.button{
+    width: 70%;
+    margin: 0 auto;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #18216d;
+    border: 3px double #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 28px;
+
+    animation-name: buton;
+    animation-duration:1s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1ms;
+}
+@keyframes buton {
+    0%{
+        box-shadow: 1px 1px 25px 5px rgb(233, 233, 233);
+    }
+    20%{
+        box-shadow: 1px 1px 25px 5px #18216d;
+    }
+    40%{
+        box-shadow: 1px 1px 25px 5px rgb(233, 233, 233);
+    }
+    60%{
+         box-shadow: 1px 1px 25px 5px #18216d;
+    }
+    80%{
+       box-shadow: 1px 1px 25px 5px rgb(233, 233, 233);
+    }
+    100%{
+        box-shadow: 1px 1px 25px 5px #18216d;
+    }
+    
+}

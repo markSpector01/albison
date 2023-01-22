@@ -1,0 +1,56 @@
+footer{
+    width: 100%;
+    background-color: rgb(241, 242, 243);
+    height: 50vh;
+}
+.umo{
+    width: 70%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5% 0;
+    border-bottom: 1px solid grey;
+}
+.telnomer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.telnomer h1{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: rgb(24, 33, 109);
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.adress h1{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: rgb(24, 33, 109);
+}
+.adress a{
+    line-height: 32px;
+}
+.language{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.language span{
+    display: flex;
+    gap: 15px;
+}
+.language h1{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: rgb(24, 33, 109);
+}
+.language span p{
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
+} 
